@@ -1,8 +1,12 @@
 body {
 	font-family: roboto;
-	background: #2BC0E4;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	/*background: url(background07.jpg);
+	background-size: cover;
+	background-position: center;*/
+	background: #2BC0E4;
+	background: -webkit-linear-gradient(to left, #EAECC6, #2BC0E4);
+	background: linear-gradient(to left, #EAECC6, #2BC0E4);
 }
 
 h1 {
@@ -79,5 +83,5 @@ input:focus {
 	background-color: #f7f7f7;
 	width: 360px;
 	margin: 100px auto;
-	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	box-shadow: 2px 8px 8px rgba(0,0,0,0.4);
 }
